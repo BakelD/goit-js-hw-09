@@ -1,0 +1,41 @@
+.feedback-form {
+  width: 408px;
+  height: 296px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+
+  border: 1px solid #000000;
+}
+
+.feedback-form-field {
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 360px;
+}
+
+textarea {
+  resize: none;
+}
+.btn-submit {
+  min-width: 95px;
+  padding: 8px 16px;
+
+  background-color: #4e75ff;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  outline: none;
+
+  transition: 500ms background-color linear;
+  cursor: pointer;
+}
+
+.btn-submit:hover,
+.btn-submit:focus {
+  background-color: #6c8cff;
+}
